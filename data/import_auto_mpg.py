@@ -1,10 +1,9 @@
 """
-import_auto_mpg.py
+import_auto_mpg
 
-Import the auto MPG dataset in case you do not have the download.
+Use the following code to import the Auto MPG dataset that is missing from the files.
+Note: this does not trigger a download, but allows you to use the dataset directly from your script.
 """
-from sklearn.datasets import fetch_openml
+from datasets import load_dataset
 
-# Load Auto MPG dataset
-auto_mpg = fetch_openml(name='autoMpg', version=1)
-X, y = auto_mpg.data, auto_mpg.target
+dataset = load_dataset("scikit-learn/auto-mpg")
