@@ -12,17 +12,17 @@ from sklearn.linear_model import Lasso
 from sklearn.ensemble import RandomForestRegressor
 
 # %% Step 1: Get the MPG dataset
-auto_mpg_df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+raw_df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
                           delim_whitespace=True,
                           names=["mpg", "cylinders", "displacement", "horsepower", "weight", "acceleration",
                                  "model_year", "origin", "car_name"])
 
 #%% Step 2: Exploratory Data Analysis (EDA)
-print(auto_mpg_df.head())  # Display first few rows
-print(auto_mpg_df.describe())  # Summary statistics
+print(raw_df.head())  # Display first few rows
+print(raw_df.describe())  # Summary statistics
 
 # Remove the entries where the horsepower is marked with a question mark
-auto_mpg_df = auto_mpg_df[auto_mpg_df.horsepower != '?']
+auto_mpg_df = raw_df[raw_df.horsepower != '?']
 
 #%% Step 3: Encode categorical features (if any)
 # Assuming "origin" is categorical and needs encoding
