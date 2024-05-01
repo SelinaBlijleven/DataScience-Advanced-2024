@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 """
-Created on Wed May 1 13:00:41 2024
+multiple_regression_mpg.py
 
-@author: linac
-
+Works with an external repository to retrieve the MPG data.
 """
 # %% Step 0: Import the necessary libraries
 import pandas as pd
