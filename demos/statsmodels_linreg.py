@@ -15,7 +15,7 @@ import statsmodels.api as sm
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
-# Load the Pearson's father and son dataset
+# Load the Pearson's father and son dataset (can be done with regular Pandas DataFrame)
 data = np.genfromtxt('../data/pearson-father-son.csv', delimiter=',', skip_header=1)
 
 # Extract father's height (feature) and son's height (target)
