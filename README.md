@@ -5,9 +5,14 @@ occurring in May 2024.
 
 ## Sources
 
+### Algorithm Visualization
+- [Gradient Descent for Linear Regression](https://gbhat.com/machine_learning/gradient_descent_anim.html) (this website contains more animations)
+- [K-means Visualization](https://www.youtube.com/watch?v=5I3Ei69I40s)
+
 ### Datasets
 
 - [Pearson Father & Son dataset](https://mathstat.slu.edu/~clair/stat1300/data/pearson-father-son.csv)
+- [Tide Dataset](https://www.kaggle.com/datasets/arjunbhaybhang/marine-institute-tide-prediction-dataset)
 
 ### Practice
 
@@ -20,9 +25,18 @@ The following section contains some online interactive learning materials.
 ### Reading
 
 #### Documentation & libraries
-- [Pipelines in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
-- [HuggingFace Models for Tensorflow ML](https://huggingface.co/docs/transformers/index)
+
+##### Project Management
+
 - [Keras, TensorFlow and when to use them](https://pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
+
+##### Sklearn
+- [Pipelines in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
+- [Sklearn Standardscaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) (most important: fit, transform, fit_transform, inverse_transform)
+- [Sklearn MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+
+##### Working with existing models
+- [HuggingFace Models for Tensorflow ML](https://huggingface.co/docs/transformers/index)
 
 #### Ethics
 - [European Commission's Expert Level Group on Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
