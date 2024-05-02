@@ -37,15 +37,11 @@ def fetch_data():
     # fetch dataset
     statlog_german_credit_data = fetch_ucirepo(id=144)
 
-    # data (as pandas dataframes)
-    for k, v in statlog_german_credit_data.metadata.items():
-        print(f"Key: {k}")
-        print(f"Value: {v}")
     X = statlog_german_credit_data.data.features
     y = statlog_german_credit_data.data.targets
 
     # Add the column names using the dictionary above to map
-    X.rename(columns=COLS, inplace=True)
+    X = X.rename(columns=COLS)
 
     return X, y
 
