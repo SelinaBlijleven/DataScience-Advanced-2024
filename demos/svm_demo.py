@@ -11,8 +11,6 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn import metrics
 
-from demos.correlation_matrix import correlation_matrix
-
 # %% Data loading
 cancer = datasets.load_breast_cancer()
 
