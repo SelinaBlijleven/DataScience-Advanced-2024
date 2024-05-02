@@ -10,6 +10,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import Lasso
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.preprocessing import StandardScaler
 
 # %% Step 1: Get the MPG dataset
 raw_df = pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
@@ -32,7 +33,6 @@ auto_mpg_df = pd.get_dummies(auto_mpg_df, columns=["origin"], drop_first=True)
 auto_mpg_df = auto_mpg_df[auto_mpg_df.horse_power != '?']
 
 #%% Step 4: Split into Training and Test dataset
-
 X = auto_mpg_df.drop(columns=["mpg", "car_name"])  # Features
 y = auto_mpg_df["mpg"]  # Target
 
@@ -46,8 +46,6 @@ linear_reg_mse = mean_squared_error(y_test, y_pred)
 print("Linear Regression MSE:", linear_reg_mse)
 
 #%% Step 6: Scale the numeric features
-from sklearn.preprocessing import StandardScaler
-
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
