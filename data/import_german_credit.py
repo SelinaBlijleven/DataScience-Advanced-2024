@@ -1,3 +1,11 @@
+"""
+import_german_credit.py
+
+Usage:
+    from data.import_german_credit import fetch_data
+
+    X, y = fetch_data()
+"""
 from ucimlrepo import fetch_ucirepo
 
 
