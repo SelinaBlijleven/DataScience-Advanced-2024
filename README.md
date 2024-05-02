@@ -31,9 +31,10 @@ The following section contains some online interactive learning materials.
 - [Keras, TensorFlow and when to use them](https://pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
 
 ##### Sklearn
-- [Pipelines in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 - [Sklearn Standardscaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) (most important: fit, transform, fit_transform, inverse_transform)
 - [Sklearn MinMaxScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+- [Sklearn GridsearchCV for hyperparameter optimisation](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+- [Sklearn Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html)
 
 ##### Working with existing models
 - [HuggingFace Models for Tensorflow ML](https://huggingface.co/docs/transformers/index)
