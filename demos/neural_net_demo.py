@@ -9,7 +9,7 @@ OCR (Optical Character Recognition) demo with a simple neural network called the
 from sklearn.datasets import load_digits
 from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Plotting
 import matplotlib.pyplot as plt
@@ -28,7 +28,7 @@ clf = MLPClassifier(
     hidden_layer_sizes=(100,),  # Number of neurons in each hidden layer
     max_iter=1000,  # Maximum number of iterations (converges after ~160 iterations)
     alpha=1e-4,  # Regularisation to make the model generalizable
-    solver='adam',  # Solver for optimized gradient descent
+    solver='lbfgs',  # Solver for optimized gradient descent
     verbose=10,  # Print a lot so we know what is going on
     random_state=42,  # Passing an int for the random state to ensure reproducability
     learning_rate_init=0.1  # Initial learning rate
@@ -39,6 +39,8 @@ clf.fit(X_train, y_train)
 
 # Make predictions on the test set
 y_pred = clf.predict(X_test)
+
+print(confusion_matrix(y_test, y_pred))
 
 # Calculate the accuracy of the classifier
 accuracy = accuracy_score(y_test, y_pred)
