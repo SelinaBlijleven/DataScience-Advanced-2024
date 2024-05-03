@@ -31,6 +31,8 @@ The following section contains some online interactive learning materials.
 ##### Project Management
 
 - [Keras, TensorFlow and when to use them](https://pyimagesearch.com/2018/10/08/keras-vs-tensorflow-which-one-is-better-and-which-one-should-i-learn/)
+- [Explaining neural networks through mathematical modeling (released 12-03-2024)](https://phys.org/news/2024-03-neural-networks-mathematical-formula-relevant.html)
+
 
 ##### Sklearn
 - [Sklearn Standardscaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) (most important: fit, transform, fit_transform, inverse_transform)
@@ -46,6 +48,7 @@ The following section contains some online interactive learning materials.
 - [European Commission's Expert Level Group on Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
 - [Amazon scrapped 'sexist AI' tool](https://www.bbc.com/news/technology-45809919)
 - [Systemic racism in data](https://fairlearn.org/main/user_guide/datasets/boston_housing_data.html)
+- [AI Fairness exercise on Kaggle](https://www.kaggle.com/code/alexisbcook/ai-fairness)
 
 #### Feature Engineering
 - [Dummy Variable Trap in Feature Engineering and how easy it is to get trapped in pandas](https://builtin.com/machine-learning/dummy-variable-trap-pandas)
