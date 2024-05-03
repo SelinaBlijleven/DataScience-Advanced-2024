@@ -29,7 +29,7 @@ iris = load_iris()
 X, y = iris.data, iris.target
 
 #%% Clustering
-model = KNeighborsClassifier(n_neighbors=1)
+model = KNeighborsClassifier()
 
 # Scikit Learn will make different splits of the data for us and return a 
 # list of n accuracy scores.
