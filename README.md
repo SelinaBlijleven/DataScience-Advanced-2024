@@ -8,6 +8,8 @@ occurring in May 2024.
 ### Algorithm Visualization
 - [Gradient Descent for Linear Regression](https://gbhat.com/machine_learning/gradient_descent_anim.html) (this website contains more animations)
 - [K-means Visualization](https://www.youtube.com/watch?v=5I3Ei69I40s)
+- [MNIST Digit Playground](https://www.ccom.ucsd.edu/~cdeotte/programs/MNIST.html)
+- [Neural Network Playground](https://playground.tensorflow.org/)
 
 ### Datasets
 
@@ -38,6 +40,7 @@ The following section contains some online interactive learning materials.
 
 ##### Working with existing models
 - [HuggingFace Models for Tensorflow ML](https://huggingface.co/docs/transformers/index)
+- [Re-using Network Layers (academic paper)](https://ieeexplore.ieee.org/abstract/document/8802998)
 
 #### Ethics
 - [European Commission's Expert Level Group on Ethics Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai)
